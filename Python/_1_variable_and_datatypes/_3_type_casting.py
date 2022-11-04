@@ -1,4 +1,4 @@
-# Type Casting - changing the datatype of one variable into another datatype
+# Type Casting / Type Conversion - changing the datatype of one variable into another datatype
 
 # int()
 # float()
@@ -8,7 +8,7 @@
 
 # list()
 # tuple()
-# set
+# set()
 # dict()
 
 # no = 123
@@ -45,12 +45,22 @@
 # print(type(female) , type(bool(female)), bool(female))
 # print(type(female) , type(complex(female)), complex(female))
 
-data = 1+10j
+# data = 1+10j
 
 # print(type(data) , type(int(data)), int(data))
 # print(type(data) , type(float(data)), float(data))
-print(type(data) , type(str(data)), str(data))
-print(type(data) , type(bool(data)), bool(data))
-print(type(data) , type(complex(data)), complex(data))
+# print(type(data) , type(str(data)), str(data))
+# print(type(data) , type(bool(data)), bool(data))
+# print(type(data) , type(complex(data)), complex(data))
 
 
+
+lst = [6,2,6,8,10,4,5,789,10]
+print(lst)
+# to create a list of unique values from above list
+
+set_demo = set(lst)
+print(set_demo)
+
+unique_lst = list(set_demo)
+print(unique_lst)

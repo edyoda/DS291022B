@@ -4,7 +4,7 @@
 # float - decimal
 # str - word,character,statment,para
 # bool - boolean (True(1)/False(0))
-# complex - real + imaginary 
+# complex - real + imaginary
 # NoneType - void
 
 # list

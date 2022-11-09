@@ -6,6 +6,7 @@
 #     print('number is not in range')
 
 
+
 # number = int(input("Enter the value = "))
 # if (number in range(1,100)):
 #   print("Number in range")

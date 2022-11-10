@@ -3,3 +3,6 @@ result = 0
 for i in lst:
   result = result + i
 print(result)
+
+
+

@@ -7,3 +7,6 @@ for i in range(1,num+1):
     res *= i
     
 print(res)
+
+
+lst = [6,7,10,3,56,23,19]

@@ -5,5 +5,7 @@ for i in range(size):
     element = int(input("Enter the element : "))
     lst.append(element)
 
-print(lst)
+print(lst) 
+# [6, 2, 3, 8, 90]
+# 9
 

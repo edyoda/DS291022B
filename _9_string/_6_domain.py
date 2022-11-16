@@ -12,4 +12,8 @@ st=email.find('@')+1
 ed=email.find('.')
 print(email[st:ed])
 
-# bharati@yahoo.com
+
+
+# Python is a high level programming language
+# programming
+

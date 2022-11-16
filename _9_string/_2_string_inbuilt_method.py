@@ -58,14 +58,14 @@ print("Orginal String : ",str1)
 # split_demo = str1.split('o')
 # print("Split : ",split_demo)
 
-# replace_demo = str1.replace("Python","Java")
+# replace_demo = str1.replace("Python","Java") # old value, new value
 # print("Replace : ",replace_demo)
 
 # replace_demo = str1.replace("o","e")
 # print("Replace : ",replace_demo)
 
-find_demo = str1.find('P')
-print("Find : ",find_demo)
+# find_demo = str1.find('P')
+# print("Find : ",find_demo)
 
-find_demo = str1.find('P',6,10)
-print("Find : ",find_demo)
+# find_demo = str1.find('P',6,10)
+# print("Find : ",find_demo)

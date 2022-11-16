@@ -3,3 +3,7 @@ count=0
 for i in str1:
     count+=1
 print(count)
+
+
+# email = bharati@yahoo.com
+# yahoo

@@ -25,3 +25,5 @@ for i in range(size):
 print(dict)
 
 
+{'a':200,'b':800,'c':900}
+1900

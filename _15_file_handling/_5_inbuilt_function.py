@@ -19,3 +19,6 @@ file = open("edyoda.txt","w")
 
 lst = ["Hello\n","Hey\n","Bye\n","Bharati"]
 file.writelines(lst)
+
+
+

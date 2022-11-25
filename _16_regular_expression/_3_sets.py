@@ -24,6 +24,6 @@ import re
 # result = re.findall('[@]',data) # returns if data contains '@'
 # print(result)
 
-data = "Python is a high level programming language! 123 _ @"
-result = re.findall('[a-z]{5}',data) # returns if data contains '@'
-print(result)
+# data = "Python is a high level programming language! 123 _ @"
+# result = re.findall('[a-z]{5}',data) # returns if data contains '@'
+# print(result)

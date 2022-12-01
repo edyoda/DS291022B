@@ -21,7 +21,11 @@ building_obj = Building()                                    # object creation
 building_obj.doors(50)                                       # calling method via object
 building_obj.windows()
 
-building_obj1 = Building()
+
+
+# Note : when you don't create a constructor of your class, 
+# then compiler provides an default contructor
+
 
 
 

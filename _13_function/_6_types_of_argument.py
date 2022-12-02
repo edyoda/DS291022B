@@ -61,5 +61,4 @@ def users(**kwargs):
     for k,v in kwargs.items():
         print(k,"---->",v)
 
-
 users(one="Bharati",two="Ram",three="Raj")

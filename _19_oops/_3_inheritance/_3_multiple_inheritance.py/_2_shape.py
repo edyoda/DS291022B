@@ -130,3 +130,52 @@
 
 # else: 
 # 	print("Invalid Input, try again!")
+
+
+
+
+
+
+class circle: 
+    def area_of_circle(self, radius):
+        self.area_circle = 3.14*radius**2
+        
+    def display_circle(self):
+        return self.area_circle
+
+class square:
+    def area_of_square(self, side):
+        self.area_square = side*side
+        
+    def display_square(self):
+        return self.area_square
+
+class triangle:
+    def area_of_rectangle(self, height, base):
+        self.area_triangle = 0.5*height*base
+
+    def display_rectangle(self):
+        return self.area_triangle
+
+class rectangle:
+    def area_of_rectangle(self, length, width):
+        self.area_rectangle = length*width
+        
+    def display_of_triangle(self):
+        return self.area_rectangle
+
+class area(rectangle,triangle,square,circle):
+    pass
+
+obj_area = area()
+
+radius = int(input("Enter radius : "))
+obj_area.area_of_circle(radius)
+acircle = obj_area.display_circle()
+print("Area of Circle : ",acircle)
+
+side = int(input("Enter the side : "))
+obj_area.area_of_square(side)
+asquare = obj_area.display_square()
+print("Area of square : ",asquare)
+

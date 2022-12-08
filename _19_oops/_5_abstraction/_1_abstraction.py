@@ -21,7 +21,6 @@ class Laptop(ABC):
         print("Helps in typing")
 
 # laptop = Laptop()
-
 class Programmer(Laptop):
     def processor(self):
         print("Processor")

@@ -1,0 +1,14 @@
+<students>
+    <student>
+        <rno name="topper">1</rno>
+        <name name="topper">Raj</name>
+    </student>
+    <student>
+        <rno name="backbencher">2</rno>
+        <name name="backbencher">Ram</name>
+    </student>
+    <student>
+        <rno name="fav">3</rno>
+        <name name="fav">Rohan</name>
+    </student>
+</students>

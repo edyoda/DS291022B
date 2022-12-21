@@ -6,7 +6,7 @@
 # managing the data
 
 # Algorithm
-# step by step procedure to solve the problem efficiently
+# step by step procedure to solve the problem/program efficiently
 
 # Building -> bricks,cement,rodes,woods -> Supervisor
 # Software -> DSA                       -> code

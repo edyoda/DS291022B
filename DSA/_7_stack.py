@@ -29,20 +29,23 @@ class stack:
     def isEmpty(self):
         return self.size == 0
 
-stack = stack()
 
-stack.push(1)
-stack.push(2)
-stack.push(3)
 
-stack.display()  
+if __name__ == "__main__":
+    stack = stack()
 
-# print(stack.pop())  
-# stack.display() 
+    stack.push(1)
+    stack.push(2)
+    stack.push(3)
 
-print(stack.peek())  
+    stack.display()  
 
-# stack.display() 
+    # print(stack.pop())  
+    # stack.display() 
 
-print(stack.size()) 
-print(stack.isEmpty())
+    print(stack.peek())  
+
+    # stack.display() 
+
+    print(stack.size()) 
+    print(stack.isEmpty())

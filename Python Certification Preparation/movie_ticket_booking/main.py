@@ -13,8 +13,10 @@ class Main:
             movie_ticket_obj.statistics()
         if choice == 4:
             print("***************Show booked tickets user info****************")
+            movie_ticket_obj.user_info()
         if choice == 0:
             print("***************Thank You for connecting with us! Good Day!****************")
+            exit()
 
 if __name__ == "__main__":
     rows = int(input("Enter the number of rows : "))
@@ -26,3 +28,9 @@ if __name__ == "__main__":
     while True:
         choice = int(input("Enter \n1.Show the seats \n2.Buy a ticket \n3.Statistics \n4.Show booked tickets user info \n0.Exit \n"))
         obj.execute(choice)
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 import re 
 from operations import *
+import random
 
 if __name__ == "__main__":
     while True:
@@ -100,6 +101,55 @@ if __name__ == "__main__":
                 login_flag = login("admin_details.json",email_ID,password)
                 if login_flag:
                     print("Login Successfully!")
+                    while True:
+                        try:
+                            module_choice = int(input("Enter \n1.Create Module \n2.View Module \n3.Update Module \n4.Delete Module \n5.Exit \n"))
+                        except ValueError:
+                            print("Enter valid choice between 1-5!")
+                            continue
+
+                        if module_choice == 1:
+                            module_ID = random.randint(10000,20000)
+                            module_name = input("Enter module name : ")
+                            start_date = input("Enter start date (YYYY-MM-DD) : ")
+                            end_date = input("Enter end date (YYYY-MM-DD) : ")
+
+                            if module_ID and module_name and start_date and end_date:
+                                create_module_flag = create_module("module.json",module_ID,module_name,start_date,end_date)
+                                if create_module_flag:
+                                    print("Module is successfully added!")
+                                else:
+                                    print("Module did not get added!")
+
+                        if module_choice == 2:
+                            file_data = view_module("module.json")
+                            # for i in file_data:
+                            #     for k,v in i.items():
+                            #         print(k,"---->",v)
+                            #     print()
+                            for i in file_data:
+                                print(i)
+
+                        if module_choice == 3:
+                            module_ID = int(input("Enter Module ID which you want to update : "))
+                            module_name = input("Enter updated module name : ")
+                            start_date = input("Enter updated start date (YYYY-MM-DD) : ")
+                            end_date = input("Enter updated end date (YYYY-MM-DD) : ")
+                            update_module_flag = update_module("module.json",module_ID,module_name,start_date,end_date)
+                            if update_module_flag:
+                                print("Successfully updated the module")
+                            else:
+                                print("Module did not get updated!")
+
+
+                        if module_choice == 4:
+                            module_ID = int(input("Enter Module ID which you want to delete : "))
+                            delete_module_flag = delete_module("module.json",module_ID)
+                            if delete_module_flag:
+                                print("Successfully deleted the module!")
+                            else:
+                                print("Module did not get deleted!")
+
                 else:
                     print("Login Failed!")
 
